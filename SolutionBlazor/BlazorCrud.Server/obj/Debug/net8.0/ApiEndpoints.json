@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "BlazorCrud.Server.Controllers.DepartamentoController",
+    "Method": "ListarDepartamentos",
+    "RelativePath": "api/Departamento/ListarDepartamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.Server.Controllers.EmpleadoController",
+    "Method": "BuscarEmpleado",
+    "RelativePath": "api/Empleado/BuscarEmpleado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.Server.Controllers.EmpleadoController",
+    "Method": "EditarEmpleado",
+    "RelativePath": "api/Empleado/EditarEmpleado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "BlazorCrud.Shared.DTOS.EmpleadoDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.Server.Controllers.EmpleadoController",
+    "Method": "EliminarEmpleado",
+    "RelativePath": "api/Empleado/EliminarEmpleado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.Server.Controllers.EmpleadoController",
+    "Method": "GuardarEmpleado",
+    "RelativePath": "api/Empleado/GuardarEmpleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "BlazorCrud.Shared.DTOS.EmpleadoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BlazorCrud.Server.Controllers.EmpleadoController",
+    "Method": "ListaEmpleados",
+    "RelativePath": "api/Empleado/ListaEmpleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

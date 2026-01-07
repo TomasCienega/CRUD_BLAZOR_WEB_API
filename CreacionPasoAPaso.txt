@@ -1,0 +1,17 @@
+1 creo una solución vacia,
+2 dentro de la solución creo un web api
+	2.1. dentro de aquí solo hizo el scaffolding y el contexto
+	2.2. agrego dependencia efcore.sqlserver
+	2.3.agrego deependencia efcore.tools
+	2.4.creo los controladores
+	2.5. agrego los cors en el progream.cs
+3 creo otro proyecto empty library 
+	3.1 Creo los DTOS
+	3.1. Creo un archivo para configurar el como obtendrá las respuestas desde el lado del servido al cliente 
+4 regreso al api y creo los controladores
+	4.1. habilito los cors porque como son proyectos que vivirán en servidores diferentes se necesita que se conozcan por asi decirlo
+5 creo el blazor
+	5.1. Creo los contratos
+	5.2. creo las implementaciones
+	5.3 instalo la dependencia CurrieTechnologies.Razor.SweetAlert2
+	2.4. se agrega el servicio en el program.cs using CurrieTechnologies.Razor.SweetAlert2;

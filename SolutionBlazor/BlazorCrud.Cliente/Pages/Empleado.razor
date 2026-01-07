@@ -1,0 +1,129 @@
+﻿@page "/empleado"
+@page "/empleado/{idEmpleadoEditar:int?}"
+
+@using BlazorCrud.Shared.DTOS;
+@using BlazorCrud.Shared.Respuesta;
+
+@inject IEmpleadoService empleadoService;
+@inject IDepartamentoService departamentoService;
+@inject NavigationManager navegacion;
+@inject SweetAlertService Swal;
+
+<h3>@titulo</h3>
+    <!-- #DataAnnotationsValidator -->
+    @*Esta etiqueta es como el "árbitro" o el motor de reglas de tu formulario. 
+    Su función es leer las instrucciones que pusiste en tu clase C# (el DTO) 
+    y aplicarlas en tiempo real en la pantalla.
+    <DataAnnotationsValidator></DataAnnotationsValidator>*@
+    <!-- #endregion -->
+
+    <!-- #ValidationMessage -->
+    @*
+        Esta etiqueta es el complemento "quirúrgico" del ValidationSummary. Mientras que el ValidationSummary muestra todos los errores juntos al principio, el ValidationMessage muestra el error específico justo debajo del campo donde ocurrió.
+
+        Aquí tienes su funcionamiento desglosado:
+
+        1. ¿Qué hace exactamente?
+        Muestra el mensaje: Si el usuario deja el nombre vacío y tú tienes un [Required] en tu DTO, esta etiqueta hará aparecer el texto: "El nombre es obligatorio".
+
+        Ubicación precisa: Se coloca normalmente justo debajo del InputText. Esto ayuda al usuario a identificar qué campo exacto debe corregir sin tener que mirar una lista arriba.
+
+        2. ¿Qué significa esa sintaxis rara @(() => ...)?
+        Eso se llama una Expresión Lambda. No le estás pasando el valor del nombre (como "Juan"), sino que le estás pasando la ubicación de la propiedad.
+
+        Le dice a Blazor: "Vigila específicamente la propiedad NombreCompleto dentro del objeto empleado".
+        <ValidationMessage For="@(()=>empleado.NombreCompleto)"></ValidationMessage>
+    *@
+    <!-- #endregion -->
+<EditForm Model="empleado" OnValidSubmit="OnValidSubmit">
+
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+
+    <div class="mb-3">
+        <label class="form-label">Nombre Completo</label>
+        <InputText class="form-control" @bind-Value="empleado.NombreCompleto"></InputText>
+        <ValidationMessage For="@(()=>empleado.NombreCompleto)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Departamento</label>
+        <InputSelect class="form-select" @bind-Value="empleado.IdDepartamento">
+            <option value="0">--Seleccionar--</option>
+            @foreach(var item in listaDepartamento)
+            {
+                <option value="@item.IdDepartamento">@item.Nombre</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => empleado.IdDepartamento)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">sueldo</label>
+        <InputNumber class="form-control" @bind-Value="empleado.Sueldo"></InputNumber>
+        <ValidationMessage For="@(() => empleado.Sueldo)"></ValidationMessage>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label"></label>
+        <InputDate class="form-control" @bind-Value="empleado.FechaContrato"></InputDate>
+        <ValidationMessage For="@(() => empleado.FechaContrato)"></ValidationMessage>
+    </div>
+    <button class="btn btn-primary" type="submit">
+        @btnTexto
+    </button>
+
+    <a class="btn btn-warning" href="empleados">Volver</a>
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public int idEmpleadoEditar { get; set; } = 0;
+    string titulo = string.Empty;
+    string btnTexto = string.Empty;
+
+    EmpleadoDTO empleado = new EmpleadoDTO();
+    List<DepartamentoDTO> listaDepartamento = new List<DepartamentoDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        listaDepartamento = await departamentoService.listarDeps();
+        if (idEmpleadoEditar !=0)
+        {
+            //empleado = await empleadoService.buscarEmpl(idEmpleadoEditar);
+            var encontrado = await empleadoService.buscarEmpl(idEmpleadoEditar);
+
+            if (encontrado != null)
+            {
+                empleado = encontrado;
+            }
+            btnTexto = "Actualizar Empleado";
+            titulo = "Editar Empleado";
+        }
+        else
+        {
+            empleado.FechaContrato = DateOnly.FromDateTime(DateTime.Today);
+            btnTexto = "Guardar Empleado";
+            titulo = "Nuevo Empleado";
+        }
+    }
+    private async Task OnValidSubmit()
+    {
+        // Limpiamos la propiedad de navegación para que no viaje basura al servidor
+        // Solo nos interesa que viaje el IdDepartamento (el int)
+        empleado.Departamento = null; // Evita conflictos de objetos anidados
+        int idDevuelto = 0;
+        if(idEmpleadoEditar==0){
+            idDevuelto = await empleadoService.guardarEmpl(empleado);
+        }
+        else
+        {
+            idDevuelto = await empleadoService.editarEmpl(empleado);
+        }
+        if(idDevuelto != 0)
+        {
+            await Swal.FireAsync("¡Logrado!", "El empleado ha sido guardado.", SweetAlertIcon.Success);
+            navegacion.NavigateTo("/empleados");
+        }
+    }
+}
