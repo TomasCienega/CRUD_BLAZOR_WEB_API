@@ -1,4 +1,4 @@
-create database  ;
+create database  DbCrudBlazor;
 use DbCrudBlazor;
 create table Departamento(
 	IdDepartamento int primary key identity(1,1),
