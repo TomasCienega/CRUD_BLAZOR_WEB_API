@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9477B03E-CEF7-4B07-B10F-75C9DFA984AE}|BlazorCrud.Server\\BlazorCrud.Server.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.server\\services\\implementaciones\\empleadoserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9477B03E-CEF7-4B07-B10F-75C9DFA984AE}|BlazorCrud.Server\\BlazorCrud.Server.csproj|solutionrelative:blazorcrud.server\\services\\implementaciones\\empleadoserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\services\\implementaciones\\empleadoserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\services\\implementaciones\\empleadoserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\pages\\empleados.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\pages\\empleados.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\services\\contratos\\iempleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\services\\contratos\\iempleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\services\\implementaciones\\departamentoserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\services\\implementaciones\\departamentoserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D5AD189D-DCAA-4DA3-925F-1595477D2BA7}|BlazorCrud.Shared\\BlazorCrud.Shared.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.shared\\respuesta\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AD189D-DCAA-4DA3-925F-1595477D2BA7}|BlazorCrud.Shared\\BlazorCrud.Shared.csproj|solutionrelative:blazorcrud.shared\\respuesta\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\services\\contratos\\idepartamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\services\\contratos\\idepartamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|c:\\users\\tomas\\downloads\\ejerciciosdeprogramacion\\crud_blazor_web_api\\solutionblazor\\blazorcrud.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CB95B3-B835-4ACF-996D-D2FBA8F082C5}|BlazorCrud.Cliente\\BlazorCrud.Cliente.csproj|solutionrelative:blazorcrud.cliente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,31 +38,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Empleados.razor",
-              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Pages\\Empleados.razor",
-              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Pages\\Empleados.razor",
-              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Pages\\Empleados.razor",
-              "RelativeToolTip": "BlazorCrud.Cliente\\Pages\\Empleados.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T15:28:08.549Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "EmpleadoServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
-              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
-              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
-              "RelativeToolTip": "BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Server\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Server\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Server\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "RelativeToolTip": "BlazorCrud.Server\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:26:08.996Z",
+              "WhenOpened": "2026-04-17T01:05:31.415Z",
               "EditorCaption": ""
             },
             {
@@ -69,45 +61,70 @@
               "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Services\\Implementaciones\\DepartamentoServiceImpl.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Implementaciones\\DepartamentoServiceImpl.cs",
               "RelativeToolTip": "BlazorCrud.Cliente\\Services\\Implementaciones\\DepartamentoServiceImpl.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:24:51.222Z"
+              "WhenOpened": "2026-04-17T00:35:37.411Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\_Imports.razor",
-              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\_Imports.razor",
-              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\_Imports.razor",
-              "RelativeToolTip": "BlazorCrud.Cliente\\_Imports.razor",
+              "Title": "ResponseAPI.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Shared\\Respuesta\\ResponseAPI.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Shared\\Respuesta\\ResponseAPI.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Shared\\Respuesta\\ResponseAPI.cs",
+              "RelativeToolTip": "BlazorCrud.Shared\\Respuesta\\ResponseAPI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T15:24:45.624Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T00:35:29.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\App.razor",
-              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\App.razor",
-              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\App.razor",
-              "RelativeToolTip": "BlazorCrud.Cliente\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T15:24:43.079Z"
+              "DocumentIndex": 1,
+              "Title": "EmpleadoServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "RelativeToolTip": "BlazorCrud.Cliente\\Services\\Implementaciones\\EmpleadoServiceImpl.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T23:15:57.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IEmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Contratos\\IEmpleadoService.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Services\\Contratos\\IEmpleadoService.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Contratos\\IEmpleadoService.cs",
+              "RelativeToolTip": "BlazorCrud.Cliente\\Services\\Contratos\\IEmpleadoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T23:14:52.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Contratos\\IDepartamentoService.cs",
+              "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Services\\Contratos\\IDepartamentoService.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Services\\Contratos\\IDepartamentoService.cs",
+              "RelativeToolTip": "BlazorCrud.Cliente\\Services\\Contratos\\IDepartamentoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T23:05:05.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Program.cs",
               "RelativeDocumentMoniker": "BlazorCrud.Cliente\\Program.cs",
               "ToolTip": "C:\\Users\\tomas\\Downloads\\EjerciciosDeProgramacion\\CRUD_BLAZOR_WEB_API\\SolutionBlazor\\BlazorCrud.Cliente\\Program.cs",
               "RelativeToolTip": "BlazorCrud.Cliente\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:24:21.724Z"
+              "WhenOpened": "2026-03-13T22:48:43.106Z"
             }
           ]
         }

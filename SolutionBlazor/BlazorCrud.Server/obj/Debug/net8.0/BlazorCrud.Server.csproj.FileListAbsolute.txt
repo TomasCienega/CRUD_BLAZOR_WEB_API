@@ -142,3 +142,9 @@ C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBl
 C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\obj\Debug\net8.0\BlazorCrud.Server.pdb
 C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\obj\Debug\net8.0\BlazorCrud.Server.genruntimeconfig.cache
 C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\obj\Debug\net8.0\ref\BlazorCrud.Server.dll
+C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tomas\Downloads\EjerciciosDeProgramacion\CRUD_BLAZOR_WEB_API\SolutionBlazor\BlazorCrud.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
